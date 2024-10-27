@@ -221,7 +221,7 @@ bikes = [
 @app.route('/api/data', methods=['GET'])
 def get_data():
     data = {
-        "name": "Sample API",
+        "name": "Sample API render",
         "description": "This is a simple JSON response from a Flask API",
         "status": "Success"
     }
