@@ -232,6 +232,15 @@ def get_data():
 def get_bikes():
     return jsonify(bikes)
 
+# My name
+@app.route('/api/myname', methods=['GET'])
+def get_name():
+    name = {
+        "firstName": "Sudeep",
+        "lastName": "Joshi"
+    }
+    return jsonify(name)
+
 # if __name__ == '__main__':
 #     app.run(debug=True)
 
