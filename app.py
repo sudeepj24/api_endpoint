@@ -216,7 +216,7 @@ bikes = [
     }
 ]
 
-# Sample data for users
+# Data for users
 users_data = [
     {"username": "sudeep", "userid": 1, "password": "1234"},
     {"username": "arjun", "userid": 2, "password": "1234"},
@@ -225,7 +225,7 @@ users_data = [
     {"username": "shivam", "userid": 5, "password": "1234"}
 ]
 
-# Sample data for orders
+# Data for orders
 orders_data = [
     {"userid": 1, "orderid": 121},
     {"userid": 2, "orderid": 122},
@@ -234,15 +234,37 @@ orders_data = [
     {"userid": 5, "orderid": 125}
 ]
 
+
 # Endpoint for users
 @app.route('/api/users', methods=['GET'])
-def get_users():
-    return jsonify(users_data)
+def get_user_id():
+    username = request.args.get('username')
+    password = request.args.get('password')
+    
+    # Find the user with matching username and password
+    for user in users_data:
+        if user["username"] == username and user["password"] == password:
+            return jsonify({"userid": user["userid"]})
+    
+    # Return error if no match is found
+    return jsonify({"error": "Invalid username or password"}), 404
 
 # Endpoint for orders
 @app.route('/api/orders', methods=['GET'])
-def get_orders():
-    return jsonify(orders_data)
+def get_order_id():
+    username = request.args.get('username')
+    
+    # Find the user with matching username
+    user = next((u for u in users_data if u["username"] == username), None)
+    if not user:
+        return jsonify({"error": "Invalid username"}), 404
+    
+    # Find the order associated with the user's userid
+    order = next((o for o in orders_data if o["userid"] == user["userid"]), None)
+    if order:
+        return jsonify({"orderid": order["orderid"]})
+    
+    return jsonify({"error": "Order not found for this user"}), 404
 
 # Sample data
 @app.route('/api/data', methods=['GET'])
