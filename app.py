@@ -234,37 +234,40 @@ orders_data = [
     {"userid": 5, "orderid": 125}
 ]
 
-
 # Endpoint for users
 @app.route('/api/users', methods=['GET'])
-def get_user_id():
+def get_users():
+    # Get query parameters for filtering
     username = request.args.get('username')
     password = request.args.get('password')
-    
-    # Find the user with matching username and password
-    for user in users_data:
-        if user["username"] == username and user["password"] == password:
-            return jsonify({"userid": user["userid"]})
-    
-    # Return error if no match is found
-    return jsonify({"error": "Invalid username or password"}), 404
+
+    # Filter users based on username and password if provided
+    if username and password:
+        user = next((user for user in users_data if user["username"] == username and user["password"] == password), None)
+        if user:
+            return jsonify(user)
+        else:
+            return jsonify({"error": "User not found or incorrect credentials"}), 404
+
+    # If no filter, return all users
+    return jsonify(users_data)
 
 # Endpoint for orders
 @app.route('/api/orders', methods=['GET'])
-def get_order_id():
-    username = request.args.get('username')
-    
-    # Find the user with matching username
-    user = next((u for u in users_data if u["username"] == username), None)
-    if not user:
-        return jsonify({"error": "Invalid username"}), 404
-    
-    # Find the order associated with the user's userid
-    order = next((o for o in orders_data if o["userid"] == user["userid"]), None)
-    if order:
-        return jsonify({"orderid": order["orderid"]})
-    
-    return jsonify({"error": "Order not found for this user"}), 404
+def get_orders():
+    # Get query parameter for filtering by userid
+    userid = request.args.get('userid', type=int)
+
+    # Filter orders based on userid if provided
+    if userid is not None:
+        user_orders = [order for order in orders_data if order["userid"] == userid]
+        if user_orders:
+            return jsonify(user_orders)
+        else:
+            return jsonify({"error": "No orders found for this user"}), 404
+
+    # If no filter, return all orders
+    return jsonify(orders_data)
 
 # Sample data
 @app.route('/api/data', methods=['GET'])
