@@ -216,6 +216,33 @@ bikes = [
     }
 ]
 
+# Sample data for users
+users_data = [
+    {"username": "sudeep", "userid": 1, "password": "1234"},
+    {"username": "arjun", "userid": 2, "password": "1234"},
+    {"username": "viraj", "userid": 3, "password": "1234"},
+    {"username": "tejas", "userid": 4, "password": "1234"},
+    {"username": "shivam", "userid": 5, "password": "1234"}
+]
+
+# Sample data for orders
+orders_data = [
+    {"userid": 1, "orderid": 121},
+    {"userid": 2, "orderid": 122},
+    {"userid": 3, "orderid": 123},
+    {"userid": 4, "orderid": 124},
+    {"userid": 5, "orderid": 125}
+]
+
+# Endpoint for users
+@app.route('/api/users', methods=['GET'])
+def get_users():
+    return jsonify(users_data)
+
+# Endpoint for orders
+@app.route('/api/orders', methods=['GET'])
+def get_orders():
+    return jsonify(orders_data)
 
 # Sample data
 @app.route('/api/data', methods=['GET'])
