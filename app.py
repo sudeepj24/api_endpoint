@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Data for Bikes
 bikes = [
     {
-        "bikeName": "Hero Splendor Plus XTEC (Sparkling Beta Blue)",
+        "bikeName": "Hero1 Splendor Plus XTEC (Sparkling Beta Blue)",
         "priceEMI": "₹1,598",
         "rating": "6.4",
         "numRatings": "1765",
