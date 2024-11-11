@@ -13,7 +13,7 @@ decorator==5.1.1
 Django==4.2
 django-crispy-forms==1.14.0
 executing==2.0.1
-Flask==2.3.3
+
 google-ai-generativelanguage==0.4.0
 google-api-core==2.17.1
 google-auth==2.28.2
@@ -65,5 +65,8 @@ urllib3==2.2.1
 wcwidth==0.2.13
 Werkzeug==3.0.2
 
+
+Flask==2.3.3
 graphene==3.3.0
-flask-graphql==2.0.1
+graphene-flask==3.0.1
+
