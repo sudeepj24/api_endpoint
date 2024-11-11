@@ -1,7 +1,8 @@
 from flask import Flask, jsonify, request
 import os
 
-from flask_graphql import GraphQLView
+from graphene_flask import GraphQLView
+
 import graphene
 
 app = Flask(__name__)
