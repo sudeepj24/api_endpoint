@@ -1,6 +1,9 @@
 from flask import Flask, jsonify, request
 import os
 
+from flask_graphql import GraphQLView
+import graphene
+
 app = Flask(__name__)
 
 # Data for Bikes
@@ -287,6 +290,35 @@ def get_name():
         "lastName": "Joshi"
     }
     return jsonify(name)
+
+# Step 1: Define the GraphQL schema
+class Query(graphene.ObjectType):
+    name = graphene.String()
+    description = graphene.String()
+    status = graphene.String()
+
+            # Step 2: Define resolvers for the fields
+            def resolve_name(self, info):
+                return "Sample API render"
+        
+            def resolve_description(self, info):
+                return "This is a simple JSON response from a Flask API"
+        
+            def resolve_status(self, info):
+                return "Success"
+
+# Step 3: Create the schema object
+schema = graphene.Schema(query=Query)
+
+# Step 4: Add a GraphQL route to the Flask app
+app.add_url_rule(
+    '/graphql',
+    view_func=GraphQLView.as_view(
+        'graphql',
+        schema=schema,
+        graphiql=True  # Enable GraphiQL interface
+    )
+)
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
