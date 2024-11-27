@@ -14,210 +14,210 @@ bikes = [
         "priceEMI": "₹1,598",
         "rating": "6.4",
         "numRatings": "1765",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike1.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike01.jpg"
     },
     {
         "bikeName": "Bajaj Pulsar 150 Neon",
         "priceEMI": "₹1,850",
         "rating": "4.5",
         "numRatings": "1890",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike2.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike02.jpg"
     },
     {
         "bikeName": "Honda CB Shine SP",
         "priceEMI": "₹1,700",
         "rating": "4.3",
         "numRatings": "1520",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike3.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike03.jpg"
     },
     {
         "bikeName": "Yamaha FZ-S V3.0 FI",
         "priceEMI": "₹2,050",
         "rating": "4.6",
         "numRatings": "2100",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike4.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike04.jpg"
     },
     {
         "bikeName": "TVS Apache RTR 160 4V",
         "priceEMI": "₹1,950",
         "rating": "4.4",
         "numRatings": "1620",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike5.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike05.jpg"
     },
     {
         "bikeName": "Suzuki Gixxer SF",
         "priceEMI": "₹2,200",
         "rating": "4.5",
         "numRatings": "2045",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike6.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike06.jpg"
     },
     {
         "bikeName": "Royal Enfield Classic 350",
         "priceEMI": "₹3,500",
         "rating": "4.8",
         "numRatings": "3000",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike7.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike07.jpg"
     },
     {
         "bikeName": "Honda Hornet 2.0",
         "priceEMI": "₹2,150",
         "rating": "4.2",
         "numRatings": "1450",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike8.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike08.jpg"
     },
     {
         "bikeName": "KTM Duke 250",
         "priceEMI": "₹3,150",
         "rating": "4.7",
         "numRatings": "2500",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike9.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike09.jpg"
     },
     {
         "bikeName": "Bajaj Avenger Cruise 220",
         "priceEMI": "₹2,850",
         "rating": "4.5",
         "numRatings": "1800",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike10.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike10.jpg"
     },
     {
         "bikeName": "Yamaha R15 V4",
         "priceEMI": "₹3,200",
         "rating": "4.7",
         "numRatings": "2750",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike11.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike11.jpg"
     },
     {
         "bikeName": "Suzuki Intruder 150",
         "priceEMI": "₹2,000",
         "rating": "4.4",
         "numRatings": "1500",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike12.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike12.jpg"
     },
     {
         "bikeName": "TVS Sport",
         "priceEMI": "₹1,300",
         "rating": "4.2",
         "numRatings": "1100",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike13.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike13.jpg"
     },
     {
         "bikeName": "Royal Enfield Meteor 350",
         "priceEMI": "₹3,400",
         "rating": "4.7",
         "numRatings": "2900",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike14.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike14.jpg"
     },
     {
         "bikeName": "Hero HF Deluxe",
         "priceEMI": "₹1,100",
         "rating": "4.1",
         "numRatings": "950",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike15.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike15.jpg"
     },
     {
         "bikeName": "Bajaj CT 110X",
         "priceEMI": "₹1,200",
         "rating": "4.0",
         "numRatings": "850",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike16.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike16.jpg"
     },
     {
         "bikeName": "Honda Unicorn",
         "priceEMI": "₹1,800",
         "rating": "4.3",
         "numRatings": "1450",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike17.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike17.jpg"
     },
     {
         "bikeName": "Yamaha MT-15",
         "priceEMI": "₹2,750",
         "rating": "4.6",
         "numRatings": "2300",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike18.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike18.jpg"
     },
     {
         "bikeName": "Suzuki Burgman Street",
         "priceEMI": "₹1,550",
         "rating": "4.3",
         "numRatings": "1250",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike19.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike19.jpg"
     },
     {
         "bikeName": "TVS Raider 125",
         "priceEMI": "₹1,500",
         "rating": "4.2",
         "numRatings": "1175",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike20.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike20.jpg"
     },
     {
         "bikeName": "Royal Enfield Himalayan",
         "priceEMI": "₹3,750",
         "rating": "4.8",
         "numRatings": "3200",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike21.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike21.jpg"
     },
     {
         "bikeName": "Hero Passion Pro",
         "priceEMI": "₹1,350",
         "rating": "4.1",
         "numRatings": "1025",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike22.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike22.jpg"
     },
     {
         "bikeName": "Bajaj Platina 110",
         "priceEMI": "₹1,150",
         "rating": "4.0",
         "numRatings": "925",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike23.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike23.jpg"
     },
     {
         "bikeName": "Honda Activa 6G",
         "priceEMI": "₹1,250",
         "rating": "4.2",
         "numRatings": "1350",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike24.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike24.jpg"
     },
     {
         "bikeName": "Yamaha Fascino 125",
         "priceEMI": "₹1,300",
         "rating": "4.2",
         "numRatings": "1450",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike25.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike25.jpg"
     },
     {
         "bikeName": "TVS Jupiter",
         "priceEMI": "₹1,350",
         "rating": "4.1",
         "numRatings": "1150",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike26.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike26.jpg"
     },
     {
         "bikeName": "Suzuki Access 125",
         "priceEMI": "₹1,400",
         "rating": "4.3",
         "numRatings": "1250",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike27.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike27.jpg"
     },
     {
         "bikeName": "Bajaj Dominar 400",
         "priceEMI": "₹3,150",
         "rating": "4.7",
         "numRatings": "2700",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike28.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike28.jpg"
     },
     {
         "bikeName": "Royal Enfield Thunderbird 350X",
         "priceEMI": "₹3,550",
         "rating": "4.6",
         "numRatings": "2800",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike29.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike29.jpg"
     },
     {
         "bikeName": "Honda H'ness CB350",
         "priceEMI": "₹3,100",
         "rating": "4.7",
         "numRatings": "2500",
-        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike30.jpeg"
+        "bikeImage": "/content/dam/bajajmall-site/bike_images/bike30.jpg"
     }
 ]
 
