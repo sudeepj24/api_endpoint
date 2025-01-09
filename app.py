@@ -11,9 +11,6 @@ app = Flask(__name__)
 
 mobiles = [
 {
-  "text01" : "Newly Launched Samsung Products | Save up to ₹1,000"  
-},
-{
     "name" : "Samsung S23, 128 GB, 32 GBder",
     "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img1.svg",
     "price" : "2,490",
@@ -28,9 +25,79 @@ mobiles = [
     "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
     "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
     "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
+},
+{
+    "name" : "Samsung Galaxy A73 5G (8GB RAM, 256GB, Awesome Gray) Online",
+    "image" : "/content/dam/bajajmall-site/resources/icons/brand-page/img3.svg",
+    "price" : "2,490"
 }
 
+
 ]
+
 
 # Data for Bikes
 bikes = [
