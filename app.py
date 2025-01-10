@@ -7,8 +7,12 @@ import os
 
 app = Flask(__name__)
 
-# Mobile Data
+# sample
+sd = [{"name" : "sourabh",
+"city" : "Nanded"}, {"name" : "sudeep",
+"city" : "Akola"}]
 
+# Mobile Data
 mobiles = [
 {
   "text01" : "Newly Launched Samsung Products | Save up to ₹1,000"  
@@ -377,6 +381,11 @@ def get_data():
 @app.route('/api/mobiles', methods=['GET'])
 def get_mobiles():
     return jsonify(mobiles)
+
+# sample
+@app.route('/api/sample', methods=['GET'])
+def get_samples():
+    return jsonify(sd)
 
 # Bike JSON data
 @app.route('/api/bikes', methods=['GET'])
