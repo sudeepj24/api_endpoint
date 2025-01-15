@@ -7,6 +7,25 @@ import os
 
 app = Flask(__name__)
 
+#DealerAPI
+dealer = [{"category_name" : "smartphone",
+       "emi_amount" : "2,098",
+       "dealer_name" : "Vijay Sales-Chandan Nagar",
+       "logo" : "/content/dam/bajajmall-site/dealer-landing/Logo.svg",
+       "tag-text_flag" : "true" } ,
+
+      {"category_name" : "smartphone",
+       "emi_amount" : "2,098",
+       "dealer_name" : "Surya Mobiles & Electronics",
+       "logo" : "/content/dam/bajajmall-site/dealer-landing/Logo.svg",
+       "tag-text_flag" : "false" } ,
+
+       {"category_name" : "smartphone",
+       "emi_amount" : "2,098",
+       "dealer_name" : "Surya Mobiles & Electronics",
+       "logo" : "/content/dam/bajajmall-site/dealer-landing/Logo.svg",
+       "tag-text_flag" : "false" } ]
+      
 # sample
 sd = [{"name" : "sourabh",
 "city" : "Nanded"}, {"name" : "sudeep",
@@ -381,6 +400,11 @@ def get_data():
 @app.route('/api/mobiles', methods=['GET'])
 def get_mobiles():
     return jsonify(mobiles)
+
+# DealerAPI
+@app.route('/api/dealer', methods=['GET'])
+def get_dealer():
+    return jsonify(dealer)
 
 # sample
 @app.route('/api/sample', methods=['GET'])
